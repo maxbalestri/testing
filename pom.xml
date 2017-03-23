@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.webscience</groupId>
-  <artifactId>DevOpsTraining</artifactId>
+  <artifactId>Gruppo3</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>DevOpsTraining Maven Webapp</name>
@@ -17,7 +17,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>DevOpsTraining</finalName>
+    <finalName>Gruppo3</finalName>
      <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -35,9 +35,7 @@
         <configuration>
           <url>http://127.0.0.1:8080/manager/text</url>
 		  <server>TomcatServer</server>
-          <path>/DevOpsTraining</path>
-           <username>administrator</username>
-           <password>webscience</password>
+          <path>/Gruppo3</path>
         </configuration>
       </plugin>
     </plugins>
